@@ -1,0 +1,96 @@
+.background {
+  background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2013/04/26/78560/a0f03b0a83af2a3d475732040ec29fed.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  background-color: pink;
+}
+.background-2{
+  background-color: rgba(170, 169, 169, 0.226);
+}
+.players {
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.name {
+  width: 100px;
+  height: 1.2rem;
+  border-radius: 10px;
+  border: none;
+  padding: 0.1rem;
+  padding-left: 0.4rem;
+  background-color: rgb(233, 233, 233);
+}
+h1 {
+  text-align: center;
+  color: black;
+}
+.name:focus {
+  border: 0px;
+}
+.remove {
+  margin-left: 0.3rem;
+  background-color: transparent;
+  border: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.claro {
+  background-color: #fff;
+  color: #000;
+}
+
+.noite {
+  color: rgba(122, 122, 122, 0.685);
+  text-decoration: line-through 1px;
+  text-decoration-color: black;
+  text-decoration-skip-ink: auto;
+}
+.player {
+  padding: 1rem;
+  border: solid black 1px;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 0.6rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  box-shadow: 1px 2px 2px black;
+}
+h3 {
+  margin-top: 0.6rem;
+  margin-bottom: 0.6rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.check {
+  margin-right: 0.6rem;
+}
+
+li p {
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 18px;
+}
+.resultado {
+  background-color: white;
+  width: 300px;
+  padding-left: 10px;
+  margin: auto;
+  margin-top: 3.5rem;
+  margin-bottom: 1rem;
+  border: solid black 1px;
+  padding-bottom: 0.8rem;
+  box-shadow: 1px 2px 2px;
+}
